@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Poster Store</title>
+  <title>Frameo</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>🎬 Poster Store</h1>
-<p>Premium Movie & Aesthetic Posters</p>
+<h1>🖼️ Frameo</h1>
+<p>Frames That Speak. Posters That Feel.</p>
 
 <div id="posters"></div>
 
@@ -22,7 +22,7 @@ fetch('posters.json')
           <img src="${p.image}">
           <h3>${p.name}</h3>
           <p>₹${p.price}</p>
-          <a href="https://wa.me/+91 8639812925?text=I want ${p.name}" target="_blank">Order on WhatsApp</a>
+          <a href="https://wa.me/+918639812925?text=I want ${p.name}" target="_blank">Order on WhatsApp</a>
         </div>
       `;
     });
@@ -32,3 +32,4 @@ fetch('posters.json')
 
 </body>
 </html>
+
