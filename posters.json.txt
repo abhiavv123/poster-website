@@ -1,0 +1,7 @@
+[
+  {
+    "name": "Movie Dialogue Poster",
+    "price": 99,
+    "image": "https://via.placeholder.com/300x400"
+  }
+]

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Admin Panel</h2>
+<p>Upload image to any image hosting (Google Drive / Imgbb)</p>
+<p>Then paste image link inside posters.json</p>
+
+<p><b>Example:</b></p>
+<pre>
+{
+ "name": "KGF Dialogue Poster",
+ "price": 99,
+ "image": "IMAGE_LINK"
+}
+</pre>
+
+</body>
+</html>
